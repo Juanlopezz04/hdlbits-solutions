@@ -3,7 +3,7 @@ module top_module (
     output wire [2:0] outv,
     output wire o2,
     output wire o1,
-    output wire o0  ); // Module body starts after module declaration
+    output wire o0  ); 
   
     assign outv=vec;
     
