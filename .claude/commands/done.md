@@ -1,27 +1,23 @@
 ---
 description: >
-  Marca el ejercicio actual como completado, hace commit SOLO de los archivos
-  staged y push a GitHub. Respeta la estructura de carpetas existente.
-  Uso: /done "seccion/ejercicio"
-  Ejemplo: /done "02_Verilog_Language/Procedures/Always_if"
+  Marca el ejercicio como completado, hace commit de los archivos staged y push.
+  Uso: /done "Fase1-digital/02_Verilog_Language/Procedures/Always_if3"
 ---
 
 Ejecuta en orden:
 
 1. git status --short
-   (muestra qué archivos están staged — si está vacío, avisar y parar)
+   Si no hay nada staged (nada en verde), avisar y parar aquí.
 
 2. git diff --cached --name-only
-   (confirmar que SOLO están los archivos del ejercicio indicado, nada más)
+   Verificar que TODOS los archivos staged están dentro de la ruta $ARGUMENTS.
+   Si hay algún archivo fuera de esa ruta: AVISAR y pedir confirmación antes de continuar.
 
-3. Si hay archivos fuera de la carpeta esperada del ejercicio $ARGUMENTS:
-   AVISAR al usuario antes de continuar. No hacer commit sin confirmación.
+3. git commit -m "feat: complete $ARGUMENTS
 
-4. git commit -m "feat: complete $ARGUMENTS
+   Solved, reviewed by hdl-reviewer (qwen3.5:cloud).
+   Testbench included."
 
-   Exercise solved, reviewed and testbench included.
-   Reviewed with hdl-reviewer agent (qwen3.5:cloud)"
+4. git push origin HEAD
 
-5. git push origin HEAD
-
-6. Imprimir: "✅ Subido: $ARGUMENTS → github.com/<usuario>/<repo>"
+5. Imprimir: "✅ $ARGUMENTS subido a GitHub correctamente"

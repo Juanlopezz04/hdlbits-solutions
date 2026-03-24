@@ -38,3 +38,27 @@ Erasmus: currently in Turkey, finishing degree in ~2 years.
 - Never solve HDLBits problems before I attempt them
 - Flag synthesis issues before fixing
 - Vision available: I can send screenshots of waveforms, layouts, schematics
+## Repository structure
+HDLBITS-SOLUTIONS/
+├── Fase1-digital/
+│   ├── 01_getting_started/
+│   └── 02_Verilog_Language/
+│       ├── Basics/
+│       ├── Procedures/     ← CURRENT
+│       ├── Vector/
+│       └── module/
+├── fase2-dispositivos/     ← Neamen, LTspice (próximo)
+├── fase3-riscv/            ← RISC-V pipeline
+├── fase4-asic/             ← OpenLane, GDS
+├── fase5-master/           ← CV, cartas, portfolio
+└── study-notes/            ← exámenes generados por /exam
+
+## Testbench location
+Testbench goes in the SAME folder as the exercise:
+  Fase1-digital/02_Verilog_Language/Procedures/Always_if_tb.v
+
+## Git rules
+- NEVER git add -A
+- Only stage the specific exercise file + its testbench
+- Commit format: "feat: complete <Fase1-digital/02_Verilog_Language/Procedures/NombreEjercicio>"
+- One commit per exercise
