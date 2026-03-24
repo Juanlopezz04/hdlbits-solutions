@@ -1,0 +1,30 @@
+{
+  "model": "qwen3.5:cloud",
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "ollama",
+    "ANTHROPIC_BASE_URL": "http://localhost:11434"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(ghdl:*)",
+      "Bash(iverilog:*)",
+      "Bash(python3:*)",
+      "Bash(make:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "write_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=\"$CLAUDE_TOOL_INPUT_PATH\"; if [[ \"$FILE\" == *.sv || \"$FILE\" == *.v || \"$FILE\" == *.vhd ]]; then git add \"$FILE\" && echo \"📌 Staged: $FILE (usa /done para hacer commit y push)\"; fi"
+          }
+        ]
+      }
+    ]
+  }
+}
+
