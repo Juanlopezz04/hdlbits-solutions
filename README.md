@@ -1,33 +1,56 @@
-# 🔌 HDLBits Solutions — Verilog & VHDL Practice
+# 🔌 HDLBits Solutions — Verilog Practice
 
-![Progress](https://img.shields.io/badge/Ejercicios%20completados-26%2B-blue)
-![Language](https://img.shields.io/badge/HDL-Verilog%20%7C%20VHDL-orange)
-![Status](https://img.shields.io/badge/Estado-En%20progreso-yellow)
 
-Soluciones personales a los ejercicios de [HDLBits](https://hdlbits.01xz.net/),
-plataforma de práctica de diseño digital con Verilog HDL.
 
-Soy estudiante de 4º de Ingeniería Electrónica y Eléctrica, usando este
-repositorio como diario de aprendizaje en diseño digital y preparación
-para entornos FPGA/ASIC.
 
-## 📁 Estructura
 
-| Carpeta | Contenido | Estado |
-|--------|-----------|--------|
-| `01_Getting_Started` | Introducción a HDLBits | ✅ Completado |
-| `02_Verilog_Language` | Sintaxis y características de Verilog | 🔄 En progreso |
-| `03_Combinational_Logic` | Puertas, MUX, codificadores | ⏳ Pendiente |
-| `04_Sequential_Logic` | Flip-flops, contadores, registros | ⏳ Pendiente |
-| `05_FSM` | Máquinas de estados finitos | ⏳ Pendiente |
+
+Soluciones personales a los ejercicios de [HDLBits](https://hdlbits.01xz.net/), plataforma de práctica de diseño digital con Verilog HDL.
+
+Soy estudiante de 4º de **Ingeniería Electrónica y Eléctrica**, usando este repositorio como diario de aprendizaje en diseño digital y preparación para entornos **FPGA/ASIC**.
+
+***
+
+## 📁 Estructura del Repositorio
+
+| # | Sección | Subsección | Estado |
+|---|---------|-----------|--------|
+| 1 | **Getting Started** | — | ✅ Completado |
+| 2 | **Verilog Language** | Basics | ✅ Completado |
+| 2 | **Verilog Language** | Vectors | ✅ Completado |
+| 2 | **Verilog Language** | Modules: Hierarchy | ✅ Completado |
+| 2 | **Verilog Language** | Procedures | ✅ Completado |
+| 2 | **Verilog Language** | More Verilog Features | 🔄 En progreso |
+| 3 | **Circuits** | Combinational Logic — Basic Gates | ⏳ Pendiente |
+| 3 | **Circuits** | Combinational Logic — Multiplexers | ⏳ Pendiente |
+| 3 | **Circuits** | Combinational Logic — Arithmetic Circuits | ⏳ Pendiente |
+| 3 | **Circuits** | Combinational Logic — Karnaugh Map to Circuit | ⏳ Pendiente |
+| 3 | **Circuits** | Sequential Logic — Latches and Flip-Flops | ⏳ Pendiente |
+| 3 | **Circuits** | Sequential Logic — Counters | ⏳ Pendiente |
+| 3 | **Circuits** | Sequential Logic — Shift Registers | ⏳ Pendiente |
+| 3 | **Circuits** | Sequential Logic — More Circuits | ⏳ Pendiente |
+| 3 | **Circuits** | Sequential Logic — Finite State Machines | ⏳ Pendiente |
+| 3 | **Circuits** | Building Larger Circuits | ⏳ Pendiente |
+
+***
 
 ## 🛠️ Herramientas utilizadas
 
-- [HDLBits](https://hdlbits.01xz.net/) — simulación online
-- ModelSim / GHDL — simulación local
-- VS Code con extensión TerosHDL
+- [HDLBits](https://hdlbits.01xz.net/) — simulación y corrección online
+- [ModelSim](https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/model-sim.html) — simulación local
+- [VS Code](https://code.visualstudio.com/) — editor de código
+
+***
 
 ## 📈 Objetivo
 
-Completar los 182 ejercicios de HDLBits como base para proyectos
-en FPGA (Xilinx/Intel) y preparación para roles de diseño RTL.
+Completar los ejercicios de HDLBits como base sólida para:
+- Proyectos en **FPGA** (Xilinx / Intel)
+- Diseño **RTL** y verificación funcional
+- Preparación para roles de **diseño digital** en la industria
+
+***
+
+## 📬 Contacto
+
+Si tienes sugerencias o encuentras algún error en las soluciones, abre un [Issue](../../issues) o contáctame directamente
