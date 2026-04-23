@@ -1,5 +1,6 @@
-// Count the number of '1' bits in a 255-bit input vector.
-// Output is an 8-bit value representing the total count (0 to 255).
+/* Count the number of '1' bits in a 255-bit input vector.
+ Output is an 8-bit value representing the total count (0 to 255).
+ */
 
 module top_module(
     input [254:0] in,
