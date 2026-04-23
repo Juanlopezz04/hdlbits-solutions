@@ -20,7 +20,7 @@ Soy estudiante de 4º de **Ingeniería Electrónica y Eléctrica**, usando este 
 | 2 | **Verilog Language** | Vectors | ✅ Completado |
 | 2 | **Verilog Language** | Modules: Hierarchy | ✅ Completado |
 | 2 | **Verilog Language** | Procedures | ✅ Completado |
-| 2 | **Verilog Language** | More Verilog Features | 🔄 En progreso |
+| 2 | **Verilog Language** | More Verilog Features | ✅ Completado |
 | 3 | **Circuits** | Combinational Logic — Basic Gates | ⏳ Pendiente |
 | 3 | **Circuits** | Combinational Logic — Multiplexers | ⏳ Pendiente |
 | 3 | **Circuits** | Combinational Logic — Arithmetic Circuits | ⏳ Pendiente |
